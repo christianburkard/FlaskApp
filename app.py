@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import sqlite3
 
+
+## starting application
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Replace with a random secret key for production
 
